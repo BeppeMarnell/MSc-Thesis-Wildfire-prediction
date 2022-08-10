@@ -1,7 +1,7 @@
 # MSc Thesis on Wildfire risk assessment using remote sensing data
 
 Hi to whoever ends up here on this webpage. Here there is the material I used for my master thesis. You're free to use the code ad check what I have done. 
-> What have I done here in a few words? I have built a machine learning model capable of assessing the risk of a wildfire over the entire globe using remote sensing data.
+> What have I done in a few words? I have built a machine learning model capable of assessing the risk of a wildfire over the entire globe using remote sensing data.
 
 > The model presented here was able to predict wildfires in the US with an 80% score and a lower score in the rest of the world.
 

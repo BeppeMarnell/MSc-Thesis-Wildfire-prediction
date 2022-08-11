@@ -19,7 +19,9 @@ Each image extracteed has 20 features, an example is shown beelow:
 ![Features example](https://github.com/BeppeMarnell/MSc-Thesis-Wildfire-prediction/blob/main/images/dataset_features.png)
 
 ## Methods
+The CNN architecture consists in multiple blocks of convolutional, batch normalisation, and activation layers as illustrated in the following Figure. Each convolutional layer retains the original size of the image while increasing the number of filters. These are 40, 60, 30 and 1 respectively for the first, second, third and fourth block. The inner blocks uses a tanh activation function while the other blocks rely on the ReLU activation function. The last layer converts the outputs of the precedent ones to a single filter through a sigmoid activation function. The model has 587,177 parameters in total.
 
+![CNN model](https://github.com/BeppeMarnell/MSc-Thesis-Wildfire-prediction/blob/main/images/model_cnn.png))
 
 
 ## Results

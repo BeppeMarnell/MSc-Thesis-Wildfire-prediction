@@ -38,3 +38,17 @@ Future work will focus on:
 - further investigating the feature space of the dataset by first iteratively deleting a feature from the dataset and then training the model;
 - inspecting in more details the reason why the model mislabels a fire instance as a no fire instance;
 - deploying the model on GEE.
+
+
+# Errors
+
+```
+Line 40: your_geometry_name is not defined
+```
+In oder to generate fire instances, you need to create a geometry on the map and add its name in the script.
+
+
+```
+List.get: List index must be between 0 and 18, or -19 and -1.  Found 19.
+```
+Given that the number of fire instances is not always assured, this error pops up. No worries, it just tells that there are not enough fire instances for that area for the selected period of time.

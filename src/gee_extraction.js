@@ -37,9 +37,9 @@ function get_date(init_date, days){
 // select the geometry and images index - to chose ------------------------
 
 // The geometry_type is the name of the geometry to import and to inspect
-var geometry_type = geom_australia;
+var geometry_type = your_geometry_name;
 // Filename name
-var region = 'australia';
+var region = 'geometry_namefile';
 
 var img_index_start = 600;
 var img_index_end = 650;

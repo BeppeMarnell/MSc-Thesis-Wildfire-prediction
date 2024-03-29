@@ -7,7 +7,8 @@
 4. [Methods](#methods)
 5. [Results](#results)
 6. [Conclusions](#conclusions)
-7. [Errors](#errors)
+7. [Preprocessing](#preprocessing)
+8. [Errors](#errors)
 
 ## Introduction
 Hi to whoever ends up here on this webpage. Here there is the material I used for my master thesis. You're free to use the code and check what I have done. 
@@ -46,6 +47,16 @@ Future work will focus on:
 - further investigating the feature space of the dataset by first iteratively deleting a feature from the dataset and then training the model;
 - inspecting in more details the reason why the model mislabels a fire instance as a no fire instance;
 - deploying the model on GEE.
+
+## Preprocessing
+Problems with the data:
+
+- The data from the tif files present a lot of NaN values. This is due to clouds and 
+satellite data not always being clear. We need to clean them before we can use them.
+- Each image is not 200x200. We need to crop the image to 200x200 to fit into the model.
+- The data is not normalised. We need to normalise the data before we can use it.
+
+You can find the preprocessing script in the `src` folder.
 
 ## Errors
 

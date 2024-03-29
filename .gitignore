@@ -1,0 +1,10 @@
+*.DS_STORE
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+*env/

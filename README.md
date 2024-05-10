@@ -20,6 +20,9 @@ Hi to whoever ends up here on this webpage. Here there is the material I used fo
 Assessing the risk of wildfires over the entire globe can be crucial in avoiding harm to wildlife, economy, properties and humans. This is known to be a challenging task. Here, a machine learning model is trained on a dataset composed of remote sensing data variables such as topography, vegetation and weather. The model is able to assess the risk of fire with a spatial resolution of 1000m/pixel. It achieves optimal results compared to other state-of-the-art architectures. Most of the variables in the dataset are found to be critical for the task, while few were disregarded. Particular focus has been given to collecting data across a variety of landscapes. Specifically, samples from Africa, Australia, Asia, Europe, South America and the US are included. This research shows the potential for deploying global wildfire risk assessment applications.
 
 ## Dataset
+[Download training dataset](https://huggingface.co/datasets/beppemar/Wildfire-dataset)
+
+
 Using Google Earth Engine (GEE), each image is extracted from different areas around the globe, from the years 2018, 2019 and 2020. In particular, focus has been given to fire seasons in Africa, Asia, Australia, Europe, South America and USA. The following picture illustrates the extraction points:
 
 ![Extraction point](images/extractions2.png)
